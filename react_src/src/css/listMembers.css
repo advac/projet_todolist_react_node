@@ -1,0 +1,7 @@
+.listMembers{
+    display: block;
+}
+.listMembers ul{
+    list-style: none;
+    color: white;
+}

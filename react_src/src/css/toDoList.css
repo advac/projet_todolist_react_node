@@ -1,0 +1,51 @@
+.toDoListPage{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    min-height: 90vh;
+}
+
+.toDoListPage ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 60vh;
+    padding: 0;
+}
+
+.toDoListPage li{
+    display: flex;
+    flex-direction: column;
+    min-height: 15vh;
+    background-color: rgb(255, 255, 255);
+    margin: 3% 0;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.toDoListPage li div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.toDoListPage h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.toDoListPage .dateFin{
+    font-weight: bold;
+    color: #b78726;
+}
+
+.toDoListPage p{
+    margin: auto 0;
+}
+
+.moon{
+    width: 80vw;
+    margin: auto;
+}

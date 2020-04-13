@@ -1,0 +1,46 @@
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 68px;
+    background-color: #202020;
+    color: #b78726;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-size: 1em;
+}
+.homeLogo{
+    width: 30px;
+}
+.person{
+    width: 30px;
+}
+#logPopup {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 8%;
+    color: black;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+    font-weight: 800;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+}
+header span{
+    padding: 8px 10px;
+    display: block;
+}
+.popuplink {
+    color: black;
+    text-decoration: none;
+}

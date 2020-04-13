@@ -1,0 +1,62 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+form {
+  width: 100%;
+}
+label {
+  margin-top: 24px;
+}
+label span {
+  display: block;
+  width: 100%;
+  font-size: 1.1em;
+  color: #b78726;
+  position: relative;
+}
+label input, label textarea, label select {
+  border-radius: 5px;
+  width: 92%;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 10px 0;
+}
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+.dateDebut {
+  width: 90%;
+}
+.step {
+  width: 80%;
+}
+.addStep {
+  width: 41%;
+  background-color: #b78726;
+  border: 1px solid lightgray;
+  margin: 10px;
+  border-radius: 5px;
+}
+button.stepButton {
+  margin: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  opacity: 0.5;
+}
+.loginButton, .envoyer {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  background-color: #b78726;
+  border-radius: 50px;
+  color: white;
+  font-size: x-small;
+}

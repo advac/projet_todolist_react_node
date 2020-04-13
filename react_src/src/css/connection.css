@@ -1,0 +1,35 @@
+/*
+    Css qui modifie la disposition des components et les éléments 
+    appellés dans connexion.js.
+    Les formulaires ne doivent pas être modifié directement
+    dans ce css
+*/
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.connexion{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10%;
+    background-color: #202020;
+    justify-content: center;
+}
+.connexion form:nth-child(3){
+    margin: auto;
+    display: none;
+}
+.registerButton {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #b78726;
+    background-color: #202020;
+    border-radius: 50px;
+    color: white;
+    font-size: x-small;
+  }
+
+  

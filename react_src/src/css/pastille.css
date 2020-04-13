@@ -1,0 +1,59 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.pastille {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+}
+h1 {
+  font-size: 1.5em;
+  margin: auto;
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: 100;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.info-header,
+.description,
+.pj {
+  margin-top: 15px;
+}
+div p:nth-child(1) {
+  color: dimgray;
+}
+.date p:nth-child(2) {
+  padding: 10px 0;
+}
+.info {
+  width: 80%;
+  margin: auto;
+}
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.labelName {
+  padding: 7px 20px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+}
+.stepList {
+  list-style: none;
+  padding: 0;
+}
+.members {
+  width: 20%;
+  padding-left: 5px;
+  border-left: 1px solid grey;
+  margin-left: 5px;
+}
